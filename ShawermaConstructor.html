@@ -72,25 +72,44 @@
 <fieldset>
 <legend>Соусы</legend>
 
+<label>
+<input type="checkbox" name="checkbox8" value="Белый соус">
+Белый соус
+</label>
+<br>
+<label>
+<input type="checkbox" name="checkbox9" value="Красный соус">
+Красный соус
+</label>
+<br>
+<label>
+<input type="checkbox" name="checkbox0" value="Острый соус Чили">
+Острый соус Чили
+</label>
+
 </fieldset>
 </fieldset>
 <fieldset>
 <legend>Как будем платить?</legend>
-<input type="radio" name="radio1" value="Лично наличными">
+<input type="radio" name="radio1" id="cash" value="Лично наличными">
+<label for="cash">Лично наличными</label>
 <br>
-<input type="radio" name="radio1" value="Картой на сайте">
+<input type="radio" name="radio1" id="card" value="Картой на сайте">
+<label for="card">Картой на сайте</label>
 <br>
 </fieldset>
-
+<!--
 <fieldset>
 <legend>А пока мы готовим, почитайте горячие новости шаурмы</legend>
 <br>
 <iframe src="https://news.ru/society/shef-povar-rasskazal-kak-vybrat-bezopasnuyu-shaurmu/" width="600" height="400"></iframe>
 </fieldset>
+<br>
+-->
 <input type="hidden" name="hiddenfield" value="Shawerma or Die!">
 <br>
 <input type="submit" name="textfield" value="Еда уже в пути!">
-<br>
+
 <input type="reset" name="text" value="Я ошибся, давай по новой!">
 </form>
 </body>
